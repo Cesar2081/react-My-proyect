@@ -9,10 +9,9 @@ import Pie from './componentes/pie.js';
 function App() {
   return (
     <>
-
       <Navbar />
       
-           
+      <Navbar />     
 
       <h1 className='text-center text-4xl font-bold'> Esto dicen nuestros alumnos sobre de los cursos de FreeCodeCamp</h1>
      
