@@ -1,0 +1,29 @@
+.contenedor-testimonio{
+    witdh: 1770px;
+    height: 368px;
+    margin: 10px 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shandow: 0px 3px  13px 1px rgb( 0 0 0 /9%);
+    
+}
+
+.imagen-testimonio{
+    witdh: auto;
+    height: 100%;
+}
+
+.nombre-testimonio{
+    color: blue;
+    
+}
+
+
+.cargo-testimonio {
+    color: blue;
+    text-center: center;
+    Font-size: 30px;
+    
+}
