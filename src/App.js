@@ -10,10 +10,8 @@ function App() {
   return (
     <>
       <Navbar />
-      
-      <Navbar />     
-
-      <h1 className='text-center text-4xl font-bold'> Esto dicen nuestros alumnos sobre de los cursos de FreeCodeCamp</h1>
+          
+      <h1 className='text-center text-red-700 text-4xl font-bold'> Esto dicen nuestros alumnos sobre de los cursos de FreeCodeCamp</h1>
      
       <div className="grid lg:grid-cols-2 gap-5 md:grid-cols-1  mx-10">
 
