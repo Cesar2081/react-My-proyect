@@ -44,5 +44,10 @@
     "gh-pages": "^4.0.0",
     "postcss": "^8.4.13",
     "tailwindcss": "^3.0.24"
-  }
+  },
+  "description": "dessrrollo web",
+  "main": "index.js",
+  "repository": "https://github.com/Cesar2081/react-My-proyect.git",
+  "author": "Cesar2081 <cesargarciagarcia281@gmail.com>",
+  "license": "MIT"
 }

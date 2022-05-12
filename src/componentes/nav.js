@@ -3,6 +3,7 @@ import React, {useState} from 'react';
 import {BiMenu} from "react-icons/bi"
 import { AiOutlineClose } from 'react-icons/ai';
 import log  from '../assets/logo.png';
+import estiloBanner from '../css/estiloBanner.module.css';
 
 
 const Navbar = () => {
@@ -12,18 +13,19 @@ const Navbar = () => {
     }
 
     const backgroundImageURL ="https://cdn.pixabay.com/photo/2021/09/02/16/48/cat-6593947_960_720.jpg";
+    // const BackgroundImageURL="../assets/8.jpg";
        const containerStyle = {
             backgroundImage:`url(${backgroundImageURL})`,
-            height: '800px',            
+            height: '800px',                        
         };
         
         
     return (
-        <header className='bg-scroll w-full h-screen bg-no-repeat bg-cover' style={containerStyle}>
+        <header className={estiloBanner.banner}  style={containerStyle}>
 
-            <nav className="h-[60px] flex justify-between items-center px-4 mx-auto ">
+            <nav className={estiloBanner.navegacion}>
 
-                <div>
+                <div >
                     <a href="/"><img src={log} width="120" height="100" alt="" /></a>
                 </div>
 
@@ -45,7 +47,7 @@ const Navbar = () => {
 
 
 
-                <div className={nav ? 'w-full bg-black text-white absolute top-[90px] left-0 flex justify-center text-center' :
+                <div className={nav ? 'w-full bg-black text-white absolute top-[60px] left-0 flex justify-center text-center' :
                     'absolute left-[-100%]'}>
                     <ul className='pt-[20px] uppercase'>
                         <li><a href="/" className="p-4">otros</a></li>
