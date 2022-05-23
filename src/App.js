@@ -1,60 +1,27 @@
+import React from 'react';
 
-import Testimonio from './componentes/testimonio.js';
-import Navbar from './componentes/nav';
-import Pie from './componentes/pie.js';
-
-
+import Home from './pages/Home';
 
 
 function App() {
   return (
-    <>
-      <Navbar />
-          
-      <h1 className='text-center text-red-700 text-4xl font-bold'> Esto dicen nuestros alumnos sobre de los cursos de FreeCodeCamp</h1>
-     
-      <div className="grid lg:grid-cols-2 gap-5 md:grid-cols-1  mx-10">
-
-        <Testimonio
-          nombre='Emma Bostian'
-          pais='Suecia'
-          imagen='emma'
-          cargo='Ingeniera de Software'
-          empresa='Spotify'
-          testimonio='Siempre he tenido problema para prender Javascript. he tomado muchos Cursos, pero el curso de FreeCodeCamp fue le que se quedo' />
-
-        <Testimonio
-          nombre='Cesar Garcia'
-          pais='Ecuador'
-          imagen='bruce'
-          cargo='Desarrollador Web'
-          empresa='Facebook'
-          testimonio='Siempre he tenido problema para prender Javascript. he tomado muchos Cursos, pero el curso de FreeCodeCamp fue le que se quedo' />
-
-        <Testimonio
-          nombre='Emma Bostian'
-          pais='Suecia'
-          imagen='emma'
-          cargo='Ingeniera de Software'
-          empresa='Spotify'
-          testimonio='Siempre he tenido problema para prender Javascript. he tomado muchos Cursos, pero el curso de FreeCodeCamp fue le que se quedo' />
-
-        <Testimonio
-          nombre='Cesar Garcia'
-          pais='Ecuador'
-          imagen='bruce'
-          cargo='Desarrollador Web'
-          empresa='Facebook'
-          testimonio='Siempre he tenido problema para prender Javascript. he tomado muchos Cursos, pero el curso de FreeCodeCamp fue le que se quedo' />
-
-
-      </div> 
-
-      <Pie />   
-
-    </>
+    <div>
+      <Home />
       
-    
+      <div>
+        <img src={require("./assets/mujer.png")} alt="mujer" />
+      </div>
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#0099ff" fill-opacity="0.7" d="M0,128L7.5,112C15,96,30,64,45,64C60,64,75,96,90,122.7C105,149,120,171,135,170.7C150,171,165,149,180,154.7C195,160,210,192,225,208C240,224,255,224,270,234.7C285,245,300,267,315,282.7C330,299,345,309,360,288C375,267,390,213,405,197.3C420,181,435,203,450,208C465,213,480,203,495,202.7C510,203,525,213,540,192C555,171,570,117,585,133.3C600,149,615,235,630,277.3C645,320,660,320,675,304C690,288,705,256,720,213.3C735,171,750,117,765,106.7C780,96,795,128,810,149.3C825,171,840,181,855,181.3C870,181,885,171,900,138.7C915,107,930,53,945,74.7C960,96,975,192,990,213.3C1005,235,1020,181,1035,186.7C1050,192,1065,256,1080,282.7C1095,309,1110,299,1125,266.7C1140,235,1155,181,1170,170.7C1185,160,1200,192,1215,170.7C1230,149,1245,75,1260,58.7C1275,43,1290,85,1305,101.3C1320,117,1335,107,1350,122.7C1365,139,1380,181,1395,165.3C1410,149,1425,75,1433,37.3L1440,0L1440,320L1432.5,320C1425,320,1410,320,1395,320C1380,320,1365,320,1350,320C1335,320,1320,320,1305,320C1290,320,1275,320,1260,320C1245,320,1230,320,1215,320C1200,320,1185,320,1170,320C1155,320,1140,320,1125,320C1110,320,1095,320,1080,320C1065,320,1050,320,1035,320C1020,320,1005,320,990,320C975,320,960,320,945,320C930,320,915,320,900,320C885,320,870,320,855,320C840,320,825,320,810,320C795,320,780,320,765,320C750,320,735,320,720,320C705,320,690,320,675,320C660,320,645,320,630,320C615,320,600,320,585,320C570,320,555,320,540,320C525,320,510,320,495,320C480,320,465,320,450,320C435,320,420,320,405,320C390,320,375,320,360,320C345,320,330,320,315,320C300,320,285,320,270,320C255,320,240,320,225,320C210,320,195,320,180,320C165,320,150,320,135,320C120,320,105,320,90,320C75,320,60,320,45,320C30,320,15,320,8,320L0,320Z"></path>
+      </svg>
+
+     
+
+      
+
+      
+    </div>
   );
 }
 

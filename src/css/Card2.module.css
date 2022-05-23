@@ -1,0 +1,81 @@
+.card {
+    background: white;
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.likeBtn{
+    background: #ffb3c2;
+    position: absolute;
+    top: 30px;
+    right: 35px;
+    padding: 8px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+h2 {
+    opacity: 0.5;
+    font-weight: 400;
+}
+
+.cardHeader{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.cardRating{
+    display: flex;
+    margin-left: 18px;
+    margin-top: 20px;
+    gap: 5px;
+    align-items: center;
+}
+
+.review{
+    font-size:20px;
+    font-weight: 500;
+    opacity: 0.6;
+}
+
+.button{
+    width: 100;
+    border-radius: 12px;
+    padding:15px 5px;
+    border: unset;
+    background-color: #DA788BDD;
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: -1px;
+    margin-top: 55px;
+    cursor: pointer;
+}
+
+.rate{
+    display:flex;
+    margin-top: 10px;
+}
+
+.feather-star{
+    fill: #ffd748;
+    height: 32px;
+    width: 32px;
+    stroke: #ffd748;    
+}
+
+.feather-heart{
+    fill: none;
+    stroke: palevioletred;
+}
+

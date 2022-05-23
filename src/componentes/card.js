@@ -3,11 +3,12 @@ import React from "react";
 
 function Card() {
   return (
+    
     <div className='max-w-md mx-auto bg-slate-100 rounded-xl shadow-md overflow-hidden md:max-w-2xl'>
         <div className='md:flex'>
           <div className='md:shrink-0'>
             <img className='h-48 w-full md:h-full md:w-48' 
-            src={require('../imagenes/2.avif')}  
+            src={require('../assets/11.avif')}  
             alt="Man looking at item at a store"/>
           </div>
           <div className='p-8'>

@@ -1,0 +1,53 @@
+@media (min-width: 1024px) {
+
+.banner{
+    background-image: url("../assets/astronauta.png");   
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;         
+   }
+
+}
+
+@media only screen and (min-width: 576px) {
+
+.banner{
+    background-image: url("../assets/astronauta.png");   
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 2px;
+    margin-right: 2px; 
+    margin-top: 5px;            
+   }
+  
+}
+
+.tiHero {
+    line-height: 1;
+    font-weight: 800;
+    font-size: 3rem;
+    color: yellowgreen;
+}
+
+.subHero{
+    line-height: 2.25rem;
+    font-weight: 500;
+    font-size: 1.875rem;
+    color: white;
+
+}
+
+.orga{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+.primero{
+    background-color: #0063e5;
+    color: #f9f9f9;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px; 
+    height: 40px; 
+    width: 150px;  
+    border-color: whitesmoke;
+}
+
+.primero:hover{
+    color:black;      
+}
